@@ -7,10 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        unbounded: ['var(--font-unbounded)'],
+        dbMono: ['var(--font-db-mono)'],
+      },
+      textColor: {
+        'default': '#f9fafb'
       },
     },
   },
