@@ -33,8 +33,7 @@ export const Game = ({ data }: GameProps) => {
           {data.rating}
           <Image src={StarIcon} width={16} height={16} alt="Rating Star" />
         </div>
-        <div className="flex gap-1"></div>
-        <p className="text-xl flex-grow">{data.name}</p>
+        <p className="text-xl">{data.name}</p>
       </div>
     </article>
   );
